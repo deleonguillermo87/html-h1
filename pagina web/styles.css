@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  background-color: #e3effa;
+  color: black;
+}
+.hero {
+  position: relative;
+  height: 100vh;
+}
+
+.hero .hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.botones {
+  position: absolute;
+  top: 8%;
+  left: 10%;
+  display: flex;
+  gap: 15px;
+  z-index: 2;
+}
+
+.botones a {
+  text-decoration: none;
+  color: #dcdcdc;
+  background-color: #001f3f;
+  padding: 8px 15px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 10px black;
+}
+
+.botones a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(187, 41, 131, 0.2);
+}
+
+.botones-secundarios {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.botones-secundarios a {
+  text-decoration: none;
+  color: #dcdcdc;
+  background-color: #001f3f;
+  padding: 8px 15px;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+  text-shadow: 0 0 10px black;
+}
+
+.botones-secundarios a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(187, 41, 131, 0.2);
+}
+
+
+.header-info {
+    background-image: url('img/abstract-sports-background-with-orange-and-red-gradient-brushstrokes-and-halftone-effect-dynamic-grunge-background-scratch-and-texture-elements-for-design-vector.webp');
+    background-size: cover;
+    padding-top: 40px;
+    opacity: .94;
+    height: 271px;
+    overflow: hidden;
+    color: #f5f0f0;
+    border-radius: 25px;
+    margin: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 40px;
+  font-family: serif;
+  text-align: center;
+}
+
+.section-info {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-inicio-footer {
+    margin: 20px 20px 20px 20px;
+}
+
+.imagen {
+  width: 350px;
+
+}
