@@ -206,12 +206,12 @@ header h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 20px;
 }
 
 .nuevo {
-  width: 320px;
+  width: calc(33.333% - 20px);
   background: white;
   border-radius: 15px;
   overflow: hidden;
@@ -236,4 +236,16 @@ header h1 {
 .nuevo p {
   margin: 5px 0 15px 0;
   font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .nuevo {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .nuevo {
+    width: 100%;
+  }
 }
