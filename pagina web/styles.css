@@ -201,3 +201,39 @@ header h1 {
     height: 300px;
   }
 }
+
+.produc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.nuevo {
+  width: 320px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.new {
+  width: 100%;
+  height: 280px;
+  object-fit: contain;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.nuevo h3 {
+  margin: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+.nuevo p {
+  margin: 5px 0 15px 0;
+  font-size: 14px;
+}
