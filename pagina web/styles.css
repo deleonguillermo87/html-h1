@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
   background-color: #e3effa;
   color: black;
 }
+
 .hero {
   position: relative;
   height: 100vh;
@@ -69,18 +70,17 @@ body {
   box-shadow: 0px 8px 15px rgba(187, 41, 131, 0.2);
 }
 
-
 .header-info {
-    background-image: url('img/abstract-sports-background-with-orange-and-red-gradient-brushstrokes-and-halftone-effect-dynamic-grunge-background-scratch-and-texture-elements-for-design-vector.webp');
-    background-size: cover;
-    padding-top: 40px;
-    opacity: .94;
-    height: 271px;
-    overflow: hidden;
-    color: #f5f0f0;
-    border-radius: 25px;
-    margin: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  background-image: url('img/abstract-sports-background-with-orange-and-red-gradient-brushstrokes-and-halftone-effect-dynamic-grunge-background-scratch-and-texture-elements-for-design-vector.webp');
+  background-size: cover;
+  padding-top: 40px;
+  opacity: .94;
+  height: 271px;
+  overflow: hidden;
+  color: #f5f0f0;
+  border-radius: 25px;
+  margin: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
@@ -98,10 +98,106 @@ header h1 {
 }
 
 .btn-inicio-footer {
-    margin: 20px 20px 20px 20px;
+  margin: 20px;
 }
 
-.imagen {
-  width: 350px;
+/* -------- CONTACTO -------- */
 
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.foto {
+  height: 250px;
+  overflow: hidden;
+}
+
+.fotho {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contactos {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.card {
+  width: 22%;
+}
+
+.contenido {
+  display: flex;
+  gap: 20px;
+}
+
+.texto {
+  width: 50%;
+  padding: 20px;
+}
+
+.mapa {
+  width: 50%;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.texto input,
+.texto textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.texto button {
+  background: #ff4d5a;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .contenedor {
+    height: auto;
+  }
+  
+  .contactos {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .contenido {
+    flex-direction: column;
+  }
+  
+  .texto,
+  .mapa {
+    width: 100%;
+  }
+  
+  .mapa {
+    height: 300px;
+  }
 }
